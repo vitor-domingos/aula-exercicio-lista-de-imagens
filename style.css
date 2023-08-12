@@ -37,14 +37,18 @@ img:nth-last-child(1) {
   font-size: 30px;
   line-height: 35.25px;
   height: 35px;
-  display: flex;
-  justify-content: space-between;
   color: #ffffff;
 }
 
 p:nth-child(n + 1):nth-child(-n + 4),
 text:nth-child(n + 1):nth-child(-n + 4) {
   position: absolute;
+}
+
+.diferentes-descricoes-primarias,
+.diferentes-descricoes-secundarias{
+display: flex;
+justify-content: space-between;
 }
 
 p:nth-child(1) {
@@ -71,10 +75,8 @@ p:nth-last-child(1) {
 
 .diferentes-descricoes-secundarias {
   height: 20px;
-  display: flex;
   top: 497px;
   margin-top: 5px;
-  justify-content: space-between;
   line-height: 19.98px;
   font-weight: 300;
   font-size: 17px;
